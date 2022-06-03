@@ -11,7 +11,7 @@
 }
 
 :root{
- --themecolor: rgba(255, 255, 255, 0.329);
+ --themecolor: rgba(0, 0, 0, 0.37);
  --white: #fff;
  --orange: #ff9800;
  --innerbg: rgba(117, 111, 111, 0.212);
@@ -141,7 +141,7 @@ body::-webkit-scrollbar-thumb{
   position: relative;
   display: flex;
   align-items: center;
-  z-index: 777;
+  z-index: 997;
   overflow-y: auto;
   animation: LoadAniY 3s 1s var(--EaseInPower3) forwards;
 }
@@ -223,8 +223,7 @@ body::-webkit-scrollbar-thumb{
 /* Header Top */
 
 #header.header-top {
-  width: 100%;
-  height:70px;
+  height:80px;
   position: fixed;
   left: 0;
   top: 0;
@@ -502,7 +501,7 @@ body::-webkit-scrollbar-thumb{
 /*hide about me when focusin*/
 
 .navbar a:focus .about-me h2{
-  color: red;
+  color: #ff5757;
 }
 
 .tohide{
@@ -567,9 +566,9 @@ body::-webkit-scrollbar-thumb{
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.37);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
-  z-index: 666;
+  z-index: 999;
   margin-top: 0;
 }
 .navbar-mobile .mobile-nav-toggle {
@@ -1137,6 +1136,7 @@ section .container {
 
 .chatbox:hover{
   cursor: pointer;
+  margin-bottom: 2px;
 }
 
 .chatbox i{

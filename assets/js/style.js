@@ -20,4 +20,14 @@ $(function() {
           $('.scrolltotop i').hide(500);
          }
      });
+
+     //to show an hide chatbox
+     $('.chat-msg').hide();
+
+     $('.chat-icon').on('click', function(){
+      $('.chat-msg').toggle();
+     });
+     $('.chat-head i').on('click', function(){
+      $('.chat-msg').hide();
+     });
 });

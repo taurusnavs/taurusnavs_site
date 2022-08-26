@@ -1190,7 +1190,7 @@ input{
 
 .credits {
   position: fixed;
-  left: 0;
+  right: 0;
   bottom: 0;
   height: 50px;
   padding: 15px;
@@ -1246,9 +1246,9 @@ input{
 
 @media (max-width: 992px) {
   .credits {
+    position: relative;
     text-align: center;
     padding: 10px;
-    background: rgba(0, 0, 0, 0.8);
   }
 }
 

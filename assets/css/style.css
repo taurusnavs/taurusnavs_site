@@ -40,7 +40,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #d4111100 url("../img/bg.jpg") top right no-repeat;
+  background: #d4111100 url("../img/bg/bg.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
